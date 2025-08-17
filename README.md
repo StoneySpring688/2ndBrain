@@ -1,4 +1,13 @@
-My markdown notes.
-### 📜LICENSE
+# 🧠2nd Brain
 
-<a href="https://github.com/StoneySpring688/2ndBrain">2ndBrain</a> © 2025 by <a href="https://github.com/StoneySpring688">StoneySpring688</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+Colección de apuntes en formato Markdown. Reúne notas y referencias sobre distintos temas para consulta, aprendizaje y organización personal.
+
+## 📔Temas actuales
+<!-- Actualiza esta lista con los temas reales del repositorio -->
+- AI
+  - DeepLearning
+- Development
+  - web
+
+## 📜LICENSE
+Este repositorio se distribuye bajo la licencia Creative Commons Attribution 4.0 International (CC BY 4.0). Consulta el archivo LICENSE para más detalles: https://creativecommons.org/licenses/by/4.0/

@@ -24,6 +24,7 @@ Map of Content for CSS (Cascading Style Sheets) concepts, properties, and techni
 - [CSS pseudo-elements](./CSS%20pseudo-elements.md) - Pseudo-element selectors
 - [CSS combinators](./CSS%20combinators.md) - Selector combinators
 - [CSS transformaciones](./CSS%20transformaciones.md) - Transformations
+- [CSS animations](./CSS%20animations.md) - Animations and keyframes
 
 ## Properties & Utilities
 - [CSS widthHeight](./CSS%20widthHeight.md) - Width and height properties

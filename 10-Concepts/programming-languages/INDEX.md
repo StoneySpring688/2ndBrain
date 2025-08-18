@@ -7,12 +7,12 @@ Map of Content for programming language-specific concepts and features.
 ### CSS
 - Directory: `css/`
 - Focus: Styling, layout, visual design concepts
-- [Browse CSS concepts](./css/)
+- [Browse CSS concepts](./css/INDEX)
 
 ### HTML
 - Directory: `html/`
 - Focus: Markup, structure, semantic elements
-- [Browse HTML concepts](./html/)
+- [Browse HTML concepts](./html/INDEX)
 
 ## Organization
 
@@ -26,5 +26,5 @@ Each language directory contains notes about specific features, techniques, and 
 ## Navigation
 
 - [Back to Concepts](../INDEX.md)
-- [CSS Concepts](./css/)
-- [HTML Concepts](./html/)
+- [CSS Concepts](./css/INDEX)
+- [HTML Concepts](./html/INDEX)

@@ -8,16 +8,16 @@ Este repositorio está organizado por **propósito** en lugar de por tecnología
 
 ### 📁 Directorios principales
 
-- **[📥 00-Inbox](./00-Inbox/)** - Captura rápida de información sin clasificar
-- **[💡 10-Concepts](./10-Concepts/)** - Conocimiento atemporal: qué es y por qué importa
-- **[🛠️ 20-HowTos](./20-HowTos/)** - Guías paso a paso y procedimientos
-- **[⚡ 30-Snippets](./30-Snippets/)** - Código reutilizable organizado por lenguaje
-- **[🚀 40-Projects](./40-Projects/)** - Documentación de proyectos activos
-- **[🔬 50-Research](./50-Research/)** - Papers, experimentos y análisis
-- **[🛠️ 60-Tools](./60-Tools/)** - Configuración y notas de herramientas
-- **[📚 70-References](./70-References/)** - Enlaces curados y material de referencia
-- **[📝 80-Journal](./80-Journal/)** - TILs, notas diarias y reflexiones
-- **[🗃️ 99-Archive](./99-Archive/)** - Contenido obsoleto pero conservado
+- **[📥 00-Inbox](./00-Inbox/INDEX)** - Captura rápida de información sin clasificar
+- **[💡 10-Concepts](./10-Concepts/INDEX)** - Conocimiento atemporal: qué es y por qué importa
+- **[🛠️ 20-HowTos](./20-HowTos/INDEX)** - Guías paso a paso y procedimientos
+- **[⚡ 30-Snippets](./30-Snippets/INDEX)** - Código reutilizable organizado por lenguaje
+- **[🚀 40-Projects](./40-Projects/INDEX)** - Documentación de proyectos activos
+- **[🔬 50-Research](./50-Research/INDEX)** - Papers, experimentos y análisis
+- **[🛠️ 60-Tools](./60-Tools/INDEX)** - Configuración y notas de herramientas
+- **[📚 70-References](./70-References/INDEX)** - Enlaces curados y material de referencia
+- **[📝 80-Journal](./80-Journal/INDEX)** - TILs, notas diarias y reflexiones
+- **[🗃️ 99-Archive](./99-Archive/INDEX)** - Contenido obsoleto pero conservado
 
 ### 🎯 ¿Cómo encontrar lo que necesitas?
 
@@ -59,7 +59,7 @@ Etiquetas jerárquicas para facilitar búsquedas:
 ## 📚 Documentación
 
 - **[📖 Guía completa de estructura](./docs/STRUCTURE.md)** - Convenciones, flujo de trabajo y mejores prácticas
-- **[📄 Plantillas](./templates/)** - Templates para diferentes tipos de notas
+- **[📄 Plantillas](./templates/README)** - Templates para diferentes tipos de notas
 - **[🗺️ Índices (MOCs)](./10-Concepts/INDEX.md)** - Maps of Content para navegación
 
 ## 🔄 Flujo de trabajo

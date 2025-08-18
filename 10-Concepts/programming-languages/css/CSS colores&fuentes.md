@@ -1,14 +1,21 @@
 ---
-title: "CSS colores&fuentes"
+title: CSS colores&fuentes
 type: concept
-tags: [area/programming, topic/css, topic/css-colores&fuentes, level/beginner]
+tags:
+  - area/programming
+  - topic/css
+  - topic/css-colores_fuentes
+  - level/beginner
 status: draft
 last_reviewed: 2024-12-28
-related_concepts: []
+related_concepts: 
 difficulty: beginner
 domain: programming
 language: css
-concept_type: [syntax, feature, property]
+concept_type:
+  - syntax
+  - feature
+  - property
 ---
 
 ## 🎨 COLORES

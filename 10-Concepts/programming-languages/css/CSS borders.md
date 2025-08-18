@@ -1,0 +1,167 @@
+---
+title: "CSS borders"
+type: concept
+tags: [area/programming, topic/css, topic/css-borders, level/beginner]
+status: draft
+last_reviewed: 2024-12-28
+related_concepts: []
+difficulty: beginner
+domain: programming
+language: css
+concept_type: [syntax, feature, property]
+---
+
+Los **bordes** (`border`) permiten enmarcar elementos HTML con líneas de diferentes estilos, colores y grosores.
+
+---
+
+## ✏️ Propiedades básicas
+
+```css
+selector {
+  border: grosor estilo color;
+}
+```
+
+### Ejemplo:
+
+```css
+p {
+  border: 2px solid black;
+}
+```
+
+**Visualización:**
+
+<div style="display:flex; gap:20px; align-items:center; margin-top:10px;"> <div style="padding:20px;">Antes</div> <div style="padding:20px; border:2px solid black;">Después</div> </div>
+
+---
+
+## 🧩 Propiedades detalladas
+
+Puedes definir cada parte del borde por separado:
+
+|Propiedad|Ejemplo|Descripción|
+|---|---|---|
+|`border-width`|`1px`, `3px`, `thin`|Grosor del borde|
+|`border-style`|`solid`, `dashed`, `none`|Estilo de línea|
+|`border-color`|`red`, `#333`, `rgba()`|Color del borde|
+
+---
+
+## 🎨 Estilos disponibles
+
+```css
+border-style: solid;       /* línea continua */
+border-style: dashed;      /* línea discontinua */
+border-style: dotted;      /* puntos */
+border-style: double;      /* doble línea */
+border-style: groove;      /* relieve */
+border-style: ridge;       /* relieve inverso */
+border-style: inset;       /* efecto hundido */
+border-style: outset;      /* efecto saliente */
+border-style: none;        /* sin borde */
+```
+
+**Visualización:**
+
+<div style="display:flex; gap:10px; flex-wrap: wrap; margin-top:10px;"> <div style="padding:20px; border:2px solid black;">solid</div> <div style="padding:20px; border:2px dashed green;">dashed</div> <div style="padding:20px; border:2px dotted blue;">dotted</div> <div style="padding:20px; border:4px double purple;">double</div> <div style="padding:20px; border:4px groove orange;">groove</div> <div style="padding:20px; border:4px ridge brown;">ridge</div> <div style="padding:20px; border:4px inset gray;">inset</div> <div style="padding:20px; border:4px outset teal;">outset</div> <div style="padding:20px; border:none;">none</div> </div>
+
+---
+
+## 🧱 Bordes por lado
+
+Puedes definir bordes individualmente para cada lado:
+
+```css
+border-top: 2px solid red;
+border-right: 2px dashed green;
+border-bottom: 2px dotted blue;
+border-left: 2px double black;
+```
+
+**Visualización:**
+
+<div style="padding:20px;
+border-top:2px solid red; 
+border-right:2px dashed green; 
+border-bottom:2px dotted blue; 
+border-left:2px double black; 
+width:120px; text-align:center;
+margin-top:10px;"> Bordes por lado </div>
+
+---
+
+## 🎯 Atajo para lados:
+
+```css
+/* Aplica a todos los lados en orden: top, right, bottom, left */
+border-width: 1px 2px 3px 4px;
+border-style: solid dashed dotted double;
+border-color: red green blue black;
+```
+
+**Visualización:**
+
+<div style="padding:20px;
+border-width:1px 2px 3px 4px;
+border-style:solid dashed dotted double;
+border-color:red green blue black;
+width:140px;
+text-align:center;
+margin-top:10px;"> Bordes combinados </div>
+
+---
+
+## 🔵 Bordes redondeados
+
+Con `border-radius` puedes crear esquinas redondeadas:
+
+```css
+div {
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+```
+
+**Visualización:**
+<div style="padding:20px; border:2px solid #333; border-radius:10px; width:120px; text-align:center; margin-top:10px;"> Borde redondeado </div>
+
+- `border-radius: 50%;` → hace un círculo perfecto si el ancho y alto son iguales.
+<div style="width:80px; height:80px; border:2px solid #333; border-radius:50%; display:flex; justify-content:center; align-items:center; margin-top:10px;"> Círculo </div>
+
+- También puedes definirlo por esquina:
+
+    ```css
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 5px;
+    ```
+<div style="width:120px; height:60px; border:2px solid #333; border-top-left-radius:10px; border-bottom-right-radius:5px; display:flex; justify-content:center; align-items:center; margin-top:10px;"> Esquinas diferentes </div>
+
+---
+
+## 📦 Ejemplo completo
+
+```css
+.box {
+  border: 3px dashed steelblue;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #eef;
+  color: #333;
+  width: 300px;
+  text-align: center;
+}
+```
+
+```html
+<div class="box">
+  ¡Hola, tengo un borde bonito!
+</div>
+```
+
+**Visualización inline:**
+
+<div style="border:3px dashed steelblue; border-radius:8px; padding:20px; color:#333; width:300px; text-align:center; margin-top:10px; color:white;"> ¡Hola, tengo un borde bonito! </div>
+
+---

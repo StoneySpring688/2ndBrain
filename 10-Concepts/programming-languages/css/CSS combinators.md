@@ -1,0 +1,123 @@
+---
+title: "CSS combinators"
+type: concept
+tags: [area/programming, topic/css, topic/css-combinators, level/beginner]
+status: draft
+last_reviewed: 2024-12-28
+related_concepts: []
+difficulty: beginner
+domain: programming
+language: css
+concept_type: [syntax, feature, property]
+---
+
+Los **combinadores** en CSS permiten seleccionar elementos **basados en su relación con otros elementos**. Esto hace posible aplicar estilos con precisión sin necesidad de clases innecesarias.
+
+---
+
+## 📋 Tipos de combinadores
+
+|Combinador|Descripción|Ejemplo|
+|---|---|---|
+|(espacio)|Descendiente|`div p`|
+|`>`|Hijo directo|`div > p`|
+|`+`|Hermano adyacente|`h1 + p`|
+|`~`|Hermanos generales|`h1 ~ p`|
+
+---
+
+## 1. **Combinador descendiente** ( )
+
+Selecciona todos los elementos que estén **dentro** de otro, **en cualquier nivel**.
+
+```css
+article p {
+  color: blue;
+}
+```
+
+➡️ Aplica a todos los `<p>` **dentro de** un `<article>`, aunque estén anidados dentro de otros elementos.
+
+---
+
+## 2. **Combinador hijo** (`>`)
+
+Selecciona solo los elementos que sean **hijos directos** de otro.
+
+```css
+div > p {
+  font-weight: bold;
+}
+```
+
+➡️ Afecta solo a los `<p>` que están **inmediatamente dentro** de un `<div>`.
+
+---
+
+## 3. **Combinador hermano adyacente** (`+`)
+
+Selecciona el **primer hermano inmediato** que viene justo después de otro.
+
+```css
+h2 + p {
+  margin-top: 0;
+}
+```
+
+➡️ Afecta solo al `<p>` que está **justo después de un `<h2>`**.
+
+---
+
+## 4. **Combinador hermanos generales** (`~`)
+
+Selecciona **todos los hermanos posteriores** (no necesariamente inmediatos).
+
+```css
+h2 ~ p {
+  color: gray;
+}
+```
+
+➡️ Afecta a todos los `<p>` que vengan **después de un `<h2>`** dentro del mismo padre.
+
+---
+
+## 🧪 Ejemplo práctico con HTML y CSS
+
+```html
+<div class="contenedor">
+  <h2>Título</h2>
+  <p>Primer párrafo (hermano adyacente)</p>
+  <p>Segundo párrafo (hermano general)</p>
+  <section>
+    <p>Párrafo dentro de section</p>
+  </section>
+</div>
+```
+
+```css
+.contenedor h2 + p {
+  color: red;
+}
+
+.contenedor h2 ~ p {
+  font-style: italic;
+}
+
+.contenedor p {
+  font-size: 16px;
+}
+```
+
+---
+
+## 🧠 Consejos
+
+- Usa combinadores para evitar clases innecesarias.
+
+- Ten en cuenta el **rendimiento**: los combinadores complejos (especialmente descendientes largos) pueden ser más costosos.
+
+- Prefiere usar combinadores con moderación y **combinados con clases o etiquetas semánticas** para mayor claridad.
+
+
+---

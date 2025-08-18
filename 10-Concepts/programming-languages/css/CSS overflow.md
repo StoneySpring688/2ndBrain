@@ -1,0 +1,116 @@
+---
+title: "CSS overflow"
+type: concept
+tags: [area/programming, topic/css, topic/css-overflow, level/beginner]
+status: draft
+last_reviewed: 2024-12-28
+related_concepts: []
+difficulty: beginner
+domain: programming
+language: css
+concept_type: [syntax, feature, property]
+---
+
+# 🌊 Overflow en CSS
+
+La propiedad `overflow` controla qué ocurre cuando el contenido de un elemento **excede el tamaño de su contenedor**.
+
+---
+
+## 🔧 Sintaxis básica
+
+```css
+.elemento {
+  overflow: valor;
+}
+```
+
+---
+
+## 📋 Valores posibles
+
+|Valor|Descripción|
+|---|---|
+|`visible`|(por defecto) El contenido que desborda se muestra sin restricciones.|
+|`hidden`|El contenido que se desborda se **oculta**.|
+|`scroll`|Siempre muestra **barras de desplazamiento**, aunque no sean necesarias.|
+|`auto`|Muestra barras **solo si es necesario**.|
+
+---
+
+## 🧱 Ejemplo visual
+
+```html
+<div class="caja">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</div>
+```
+
+```css
+.caja {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #333;
+  overflow: auto;
+}
+```
+
+**Visualización:**
+
+<div style="width:200px; height:100px; border:1px solid #888; padding:10px; border-radius:8px; background-color: black; overflow:auto; margin-top:10px; color:white;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+
+
+---
+
+## 🔄 Overflow en eje horizontal y vertical
+
+Puedes controlar cada eje por separado:
+
+```css
+overflow-x: auto;
+overflow-y: hidden;
+```
+
+**Visualización:**
+
+<div style="width:200px; height:100px; overflow-x:auto; overflow-y:hidden; border:1px solid #888; border-radius:8px; padding:10px; background-color:black; color:white; white-space:nowrap; margin-top:10px;"> Este contenido es demasiado largo y solo se desplaza horizontalmente, verticalmente está oculto. </div>
+
+
+---
+
+## 🔎 Ejemplo práctico: recortar texto con `overflow`
+
+```css
+.texto-cortado {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+```
+
+```html
+<div class="texto-cortado">
+  Este texto es demasiado largo y será recortado con puntos suspensivos.
+</div>
+```
+
+**Visualización:**
+
+<div style="width:250px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; background-color:black; color:white; padding:5px 10px; border-radius:6px; margin-top:10px;"> Este texto es demasiado largo y será recortado con puntos suspensivos. </div>
+
+
+🔹 `text-overflow: ellipsis;` **añade "..."** cuando el texto se corta en una sola línea.
+
+---
+
+## 🧼 Recomendaciones
+
+- Usa `overflow: auto` para mostrar barras solo cuando sea necesario.
+
+- Usa `hidden` con cuidado: puede hacer que se pierda contenido sin avisar.
+
+- `scroll` garantiza acceso al contenido, pero puede mostrar barras innecesarias.
+
+
+---

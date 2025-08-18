@@ -9,6 +9,26 @@ Esta carpeta contiene plantillas (templates) especializadas para diferentes tipo
 - **`Project.md`** - Documentación de proyectos generales (no data science)
 - **`Research.md`** - Papers académicos, estudios y investigación
 
+## 🗂️ Templates organizados por área de conocimiento
+
+### 💻 Programming & Software Development
+- **`Concept-Programming.md`** - Conceptos específicos de lenguajes de programación
+- **`Concept-Software-Engineering.md`** - Arquitectura, patrones de diseño, metodologías
+- **`Concept-Algorithm.md`** - Algoritmos y estructuras de datos
+- **`HowTo-Development.md`** - Workflows de desarrollo, setup, deployment
+- **`Snippet.md`** - Fragmentos de código reutilizables
+
+### 🤖 Artificial Intelligence & Machine Learning
+- **`Concept-AI-ML.md`** - Conceptos de IA/ML, redes neuronales, técnicas
+- **`Project-Data-Science.md`** - Proyectos de ML/DS con lifecycle específico
+
+### 📐 Mathematical & Scientific
+- **`Concept-Mathematics.md`** - Conceptos matemáticos puros y aplicados
+- **`Research.md`** - Papers académicos, estudios científicos
+
+### 🛠️ General Purpose
+- **`Project.md`** - Documentación de proyectos generales
+
 ### Templates especializados para Conceptos
 
 #### `Concept-Programming.md`

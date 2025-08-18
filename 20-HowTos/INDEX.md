@@ -38,5 +38,5 @@ Guías de diagnóstico, resolución de problemas y debugging.
 
 ## 🔗 Enlaces útiles
 
-- [Plantilla de HowTo](../templates/HowTo.md)
+- [Plantilla de HowTo de Desarrollo](../templates/HowTo-Development.md)
 - [Guía de estructura](../docs/STRUCTURE.md)

@@ -4,12 +4,10 @@ Esta carpeta contiene plantillas (templates) especializadas para diferentes tipo
 
 ## 📋 Templates disponibles
 
-### Templates generales
-- **`Concept.md`** - Template general para conceptos (mantiene compatibilidad)
-- **`HowTo.md`** - Guías paso a paso y procedimientos generales
-- **`Snippet.md`** - Fragmentos de código reutilizables
-- **`Project.md`** - Documentación de proyectos generales
-- **`Research.md`** - Papers, estudios y investigación
+### Templates base
+- **`Snippet.md`** - Fragmentos de código reutilizables por lenguaje
+- **`Project.md`** - Documentación de proyectos generales (no data science)
+- **`Research.md`** - Papers académicos, estudios y investigación
 
 ### Templates especializados para Conceptos
 

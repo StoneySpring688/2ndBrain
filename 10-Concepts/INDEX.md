@@ -37,5 +37,5 @@ Tecnologías cloud, containerización, orquestación, CI/CD y prácticas DevOps.
 
 ## 🔗 Enlaces útiles
 
-- [Plantilla de Concepto](../templates/Concept.md)
+- [Plantillas de Conceptos](../templates/README.md#templates-especializados-para-conceptos)
 - [Guía de estructura](../docs/STRUCTURE.md)

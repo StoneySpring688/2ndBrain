@@ -56,12 +56,17 @@ El repositorio está estructurado por **tipo de nota** en lugar de por tecnolog�
 ├── 99-Archive/               # Contenido obsoleto o histórico
 ├── docs/                     # Documentación del repositorio
 │   └── STRUCTURE.md          # Esta guía
-├── templates/                # Plantillas de notas
-│   ├── Concept.md
-│   ├── HowTo.md
-│   ├── Snippet.md
-│   ├── Project.md
-│   └── Research.md
+├── templates/                # Plantillas de notas especializadas
+│   ├── Concept-Programming.md   # Conceptos específicos de programación
+│   ├── Concept-Software-Engineering.md  # Arquitectura, patrones, metodologías
+│   ├── Concept-Algorithm.md     # Algoritmos y estructuras de datos
+│   ├── Concept-AI-ML.md        # Conceptos de IA/ML unificados
+│   ├── Concept-Mathematics.md   # Conceptos matemáticos formales
+│   ├── HowTo-Development.md     # Guías de desarrollo y workflows
+│   ├── Project-Data-Science.md  # Proyectos de ML/DS
+│   ├── Snippet.md              # Fragmentos de código
+│   ├── Project.md              # Proyectos generales
+│   └── Research.md             # Papers y estudios
 └── README.md
 ```
 

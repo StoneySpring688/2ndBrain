@@ -1,0 +1,38 @@
+---
+title: "Html hyperlinks"
+type: concept
+tags: [area/programming, topic/html, topic/html-hyperlinks, level/beginner]
+status: draft
+last_reviewed: 2024-12-28
+related_concepts: []
+difficulty: beginner
+domain: programming
+language: html
+concept_type: [syntax, element, feature]
+---
+
+Para hacer un hyperlink:
+- Hay que poner el texto entre ```<a></a>```
+- El link se escribe en el atributo ```href=""```
+
+Por ejemplo:
+```html
+<body>
+	<a href="https://www.google.com"
+	target="_blank">
+		click me
+	</a>
+</body>
+```
+### atributos :
+- ```href=""``` es el link destino al que se irá al hacer click:
+	- se pueden enlazar otros .html que haya en la estructura del proyecto
+	- se pueden poner una url
+	- usando mailto: + un correo se puede poner un link a uun correo electrónico, ejemplo : ```href="mailto:someone@something.com"```
+- ```target=""```  sirve para determinar el comportamiento al abrir el enlace :
+	- ```_blank``` abre una nueva pestaña o una nueva ventana dependiendo de los ajustes del usuario
+	- ```_self``` abre el link en el mismo frame
+	- ```_parent``` abre el link en el frame padre
+	- ```_top``` abre el link en el cuerpo completo de la ventana
+	-  también se puede especificar un id de  frame para abrir ese en específico
+- ```title=""``` pequeña descripción que se muestra al mantener el cursor encima

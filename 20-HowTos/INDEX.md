@@ -11,6 +11,11 @@ Procedimientos paso a paso, checklists y runbooks para tareas técnicas específ
 
 ## 📁 Categorías
 
+### [🌐 Web Development](./Web/)
+Guías de desarrollo web, maquetación, configuración y deployment.
+
+- [Creando una Maquetación Web con HTML Semántico y CSS](./Web/Html-CSS-Website-Layout.md)
+
 ### [💻 Dev Environments](./dev-environments/)
 Configuración de entornos de desarrollo, toolchains, editores y setup inicial de máquinas.
 

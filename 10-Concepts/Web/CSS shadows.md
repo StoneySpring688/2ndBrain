@@ -1,0 +1,97 @@
+---
+title: "CSS shadows"
+type: concept
+tags: [area/programming, topic/css, topic/css-shadows, level/beginner]
+status: draft
+last_reviewed: 2024-12-28
+related_concepts: []
+difficulty: beginner
+domain: programming
+language: css
+concept_type: [syntax, feature, property]
+---
+
+# 🌑 Sombras en CSS
+
+Las sombras se usan para **crear profundidad** o **resaltar elementos**. Hay dos propiedades principales:
+
+---
+
+### 1. **`text-shadow`**
+
+Agrega sombra al texto:
+
+```css
+h1 {
+	text-shadow: 2px 2px 5px gray;
+}
+```
+
+**Sintaxis:**
+
+```css
+text-shadow: desplazamiento-x desplazamiento-y desenfoque color;
+```
+
+**Visualización:**
+
+<h1 style="text-shadow:2px 2px 5px gray;">Sombra en el texto</h1>
+
+---
+### 2. **`box-shadow`**
+
+Agrega sombra a cajas como `div`, botones, imágenes, etc.:
+
+```css
+.box {
+	box-shadow: 6px 6px 20px rgba(195, 255, 104,1);
+}
+```
+
+**Sintaxis:**
+
+```css
+box-shadow: desplazamiento-x desplazamiento-y desenfoque color;
+```
+
+**Visualización básica:**
+
+<div style="width:150px; height:100px; background:#4e79a7; color:white; display:flex; justify-content:center; align-items:center; font-weight:bold; box-shadow:6px 6px 20px rgba(195, 255, 104,1); border-radius:8px; margin-top:10px;"> Caja </div>
+
+---
+
+### 💡 Múltiples sombras
+
+Puedes combinar varias sombras separadas por comas:
+
+```css
+  box-shadow:5px 5px 20px #3498db, -5px -5px 20px #1b2631, 0 0 15px #8e44ad; 
+```
+
+**Visualización:**
+
+<div style="width:150px; height:100px; background:#2c3e50; display:flex; justify-content:center; align-items:center; font-weight:bold; color:white; 
+     box-shadow:5px 5px 20px #3498db, -5px -5px 20px #1b2631, 0 0 15px #8e44ad; 
+     border-radius:8px; margin-top:10px;">
+  Multi-sombra
+</div>
+
+
+
+---
+### 🧱 Ejemplo con borde y sombra
+
+```css
+.card {
+	border: 2px solid #9b59b6; /* borde sutil */
+	border-radius: 12px;
+	box-shadow: 0 8px 20px rgba(30, 30, 60, 0.7), 0 0 15px rgba(52, 152, 219, 0.5);
+	padding: 25px;
+}
+```
+
+**Visualización:**
+
+<div style="width:240px; padding:25px; background:#1c1c1e; color:#f5f5f7; border:2px solid #9b59b6; border-radius:12px; box-shadow:0 8px 20px rgba(30,30,60,0.7), 0 0 15px rgba(52,152,219,0.5); text-align:center; font-weight:600; font-size:16px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin-top:10px;"> Borde con sombra </div>
+
+---

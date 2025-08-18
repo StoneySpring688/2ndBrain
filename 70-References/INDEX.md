@@ -11,6 +11,11 @@ Glosarios, enlaces curados, estándares, libros y material de referencia organiz
 
 ## 📝 Tipos de contenido
 
+### [🌐 Web Development](./Web/)
+Roadmaps, recursos curados y referencias para desarrollo web.
+
+- [Plan de ataque para dominar React en 2025](./Web/React-Roadmap-2025.md)
+
 ### 📖 Glosarios
 Definiciones concisas de términos técnicos organizados por dominio.
 

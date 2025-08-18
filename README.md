@@ -88,6 +88,10 @@ Etiquetas jerárquicas para facilitar búsquedas:
 - **[VS Code](https://code.visualstudio.com)** - Con extensiones de Markdown
 - **[Logseq](https://logseq.com)** - Para workflows basados en bloques
 
+## 🔗 Links útiles
+
+[W3School](https://www.w3schools.com/)
+
 ## 📜 Licencia
 
 Este repositorio se distribuye bajo la licencia **Creative Commons Attribution 4.0 International (CC BY 4.0)**. 

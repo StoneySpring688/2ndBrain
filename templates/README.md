@@ -13,12 +13,12 @@ Esta carpeta contiene plantillas (templates) especializadas para diferentes tipo
 
 ### Templates especializados para Conceptos
 
-#### `Concept-Programming-Language.md`
-**Para:** Lenguajes de programación (Python, JavaScript, Rust, etc.)
-- Sintaxis fundamental y características distintivas
-- Ecosistema de herramientas y frameworks
-- Comparaciones con otros lenguajes
-- Ejemplos prácticos de uso
+#### `Concept-Programming.md`
+**Para:** Conceptos específicos de programación dentro de lenguajes
+- Características específicas (decorators, async/await, closures, etc.)
+- Patrones de uso y sintaxis especializada
+- Comparaciones con alternativas en el mismo o diferentes lenguajes
+- Casos de uso prácticos y ejemplos detallados
 
 #### `Concept-Software-Engineering.md`  
 **Para:** Arquitectura, patrones de diseño, metodologías, principios
@@ -34,19 +34,13 @@ Esta carpeta contiene plantillas (templates) especializadas para diferentes tipo
 - Comparaciones de rendimiento
 - Testing y validación empírica
 
-#### `Concept-Deep-Learning.md`
-**Para:** Arquitecturas, técnicas y métodos de DL
-- Fundamentos teóricos y matemáticos
-- Implementaciones en PyTorch/TensorFlow
-- Análisis experimental y hiperparámetros
-- Referencias a papers y datasets
-
-#### `Concept-Machine-Learning.md`
-**Para:** Algoritmos y técnicas de ML tradicional
-- Formulación matemática y supuestos
-- Implementaciones con Scikit-learn
-- Evaluación y validación cruzada
-- Tuning de hiperparámetros
+#### `Concept-AI-ML.md`
+**Para:** Conceptos de inteligencia artificial y machine learning
+- Algoritmos de ML clásico y deep learning
+- Arquitecturas de redes neuronales (CNN, RNN, Transformers)
+- Técnicas de computer vision, NLP, y RL
+- Implementaciones en PyTorch, TensorFlow, y Scikit-learn
+- Análisis experimental y evaluación de modelos
 
 #### `Concept-Mathematics.md`
 **Para:** Conceptos matemáticos puros y aplicados
@@ -73,11 +67,11 @@ Esta carpeta contiene plantillas (templates) especializadas para diferentes tipo
 
 ## 🎯 Cuándo usar cada template
 
-### Usa `Concept-Programming-Language.md` para:
-- Python, JavaScript, Rust, Go, C++, etc.
-- Características específicas de lenguajes
-- Comparaciones entre lenguajes
-- Ecosistemas y herramientas
+### Usa `Concept-Programming.md` para:
+- Conceptos específicos de lenguajes (Python decorators, JavaScript closures)
+- Características del lenguaje (async/await, generics, metaprogramming)
+- Patrones de programación específicos
+- Sintaxis especializada y casos de uso
 
 ### Usa `Concept-Software-Engineering.md` para:
 - Patrones de diseño (Strategy, Observer, Factory)
@@ -91,17 +85,13 @@ Esta carpeta contiene plantillas (templates) especializadas para diferentes tipo
 - Estructuras de datos (Binary Tree, Hash Table)
 - Algoritmos de optimización
 
-### Usa `Concept-Deep-Learning.md` para:
-- Arquitecturas (CNN, RNN, Transformer, GAN)
-- Técnicas (Attention, Batch Normalization, Dropout)
-- Funciones de pérdida y optimizadores
-- Regularización y técnicas de entrenamiento
-
-### Usa `Concept-Machine-Learning.md` para:
-- Algoritmos supervisados (SVM, Random Forest, Logistic Regression)
-- Algoritmos no supervisados (K-means, PCA, DBSCAN)
-- Técnicas de evaluación y validación
-- Métodos de preprocessing
+### Usa `Concept-AI-ML.md` para:
+- Algoritmos de ML (SVM, Random Forest, Logistic Regression)
+- Arquitecturas de DL (CNN, RNN, Transformer, GAN, VAE)
+- Técnicas de Computer Vision (object detection, segmentation)
+- Métodos de NLP (attention, transformers, embeddings)
+- Reinforcement Learning (Q-learning, policy gradients)
+- Técnicas de evaluación, optimización y regularización
 
 ### Usa `Concept-Mathematics.md` para:
 - Teoremas y lemas matemáticos

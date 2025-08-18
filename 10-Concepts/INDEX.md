@@ -10,20 +10,22 @@ Notas canónicas y atemporales que explican **qué** es algo y **por qué** es i
 
 ## 📚 Dominios de conocimiento
 
-### [🌐 Web Development](./Web/)
-HTML, CSS, JavaScript, React y tecnologías de desarrollo web frontend.
-
-- [CSS Bases - Fundamentos](./Web/CSS-Bases-Fundamentos.md)
-- [CSS Flexbox - Layout Flexible](./Web/CSS-Flexbox-Layout-Flexible.md)
-- [CSS Position - Posicionamiento](./Web/CSS-Position-Posicionamiento.md)
-- [CSS Display - Tipos de Visualización](./Web/CSS-Display-Tipos-de-Visualización.md)
-- [HTML Bases - Fundamentos](./Web/HTML-Bases-Fundamentos.md)
-- [HTML Forms - Formularios](./Web/HTML-Forms-Formularios.md)
-- [HTML Images - Imágenes](./Web/HTML-Images-Imágenes.md)
-- ...y 22 conceptos más de CSS y HTML
-
 ### [🔤 Programming Languages](./programming-languages/)
-Conceptos sobre lenguajes de programación, paradigmas, sintaxis y características.
+Conceptos específicos sobre características de lenguajes de programación, sintaxis y técnicas.
+
+#### [CSS](./programming-languages/css/)
+- 17 conceptos de CSS: layout, styling, selectors, properties
+- [CSS Bases-Fundamentos](./programming-languages/css/CSS%20Bases-Fundamentos.md)
+- [CSS Flexbox - Layout Flexible](./programming-languages/css/CSS%20Flexbox%20-%20Layout%20Flexible.md)
+- [CSS Position - Posicionamiento](./programming-languages/css/CSS%20Position%20-%20Posicionamiento.md)
+- [Ver todos los conceptos CSS](./programming-languages/css/)
+
+#### [HTML](./programming-languages/html/)
+- 12 conceptos de HTML: structure, forms, media, semantics
+- [HTML Bases - Fundamentos](./programming-languages/html/HTML%20Bases%20-%20Fundamentos.md)
+- [HTML Forms - Formularios](./programming-languages/html/HTML%20Forms%20-%20Formularios.md)
+- [HTML Images - Imágenes](./programming-languages/html/HTML%20Images%20-%20Imágenes.md)
+- [Ver todos los conceptos HTML](./programming-languages/html/)
 
 ### [⚙️ Software Engineering](./software-engineering/)
 Principios de ingeniería de software, patrones de diseño, arquitecturas y metodologías.

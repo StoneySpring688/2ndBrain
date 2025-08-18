@@ -80,8 +80,6 @@ Etiquetas jerárquicas para facilitar búsquedas:
 - CSS: Estilado, layout, responsive design y animaciones
 - JavaScript: Conceptos core y patrones
 
-> 📝 **Nota**: El contenido existente en `AI/` y `Development/` será migrado gradualmente a la nueva estructura manteniendo toda la información.
-
 ## 🛠️ Herramientas recomendadas
 
 - **[Obsidian](https://obsidian.md)** - Para navegación visual y enlaces

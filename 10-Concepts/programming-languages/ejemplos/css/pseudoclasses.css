@@ -1,0 +1,40 @@
+a:link{
+    color: rgb(22, 25, 201);
+}
+
+a:hover{
+    color: hsl(115, 84%, 50%);
+    font-size: 1.2em;
+}
+
+a:active{
+    color: red;
+    font-size: 1.2em;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+li:hover{
+    background-color: yellow;
+}
+
+li:not(:hover){
+    background-color: gray;
+}
+
+li:nth-child(3n+2){
+    background-color: blue;
+}
+
+#saludo p{
+    background-color: rgb(126, 198, 231);
+    padding: 10px;
+    display: none;
+}
+#saludo:hover p{
+    width: 50px;
+    height: 50px;
+    display: block;
+}

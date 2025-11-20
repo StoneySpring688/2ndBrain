@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: hsl(0, 1%, 19%);
+  color: white;
+}
+
+/* Estilo base de los cuadros */
+.cuadro {
+  width: 100px;
+  height: 100px;
+  margin: 30px auto;
+  border-radius: 8px;
+}
+
+/* 🔹 Ejemplo 1: transición */
+.cuadro-hover {
+  background-color: crimson;
+  transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+.cuadro-hover:hover {
+  transform: scale(1.5);
+  background-color: orange;
+}
+
+/* 🔹 Ejemplo 2: animación con keyframes */
+.cuadro-animado {
+  background-color: steelblue;
+  animation: moverYcambiar 3s infinite alternate ease-in-out;
+}
+
+/* Definición de la animación */
+@keyframes moverYcambiar {
+  0% {
+    transform: translateX(0);
+    background-color: steelblue;
+  }
+  50% {
+    transform: translateX(200px);
+    background-color: limegreen;
+  }
+  100% {
+    transform: translateX(0);
+    background-color: tomato;
+  }
+}
+
+/* 🔹 Ejemplo 3: transición con javascript */
+.cuadro-nohover {
+  background-color: hsl(286, 63%, 61%);
+  transition: transform 2s ease;
+}
+
+.cuadro-nohover.rotado{
+    transform: rotate(360deg);
+}

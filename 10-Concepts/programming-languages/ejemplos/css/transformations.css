@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background: #f7f7f7;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+
+.caja {
+  width: 100px;
+  height: 100px;
+  background: #4e79a7;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: transform 0.5s ease; /* animación suave */
+}
+
+/* Ejemplos de transformaciones */
+.caja1 {
+  transform: translate(50px, 20px) skew(-30deg, -10deg);
+}
+
+.caja2 {
+  transform: rotate(45deg);
+}
+
+.caja3 {
+  transform: scale(1.5);
+}

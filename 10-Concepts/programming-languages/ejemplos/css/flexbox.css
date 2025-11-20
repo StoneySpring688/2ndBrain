@@ -1,0 +1,16 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #eee;
+  height: 250px;
+}
+
+.caja {
+  background: tomato;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}

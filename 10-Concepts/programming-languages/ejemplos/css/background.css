@@ -1,0 +1,10 @@
+body{
+     background: linear-gradient(to right, rgba(226, 223, 74, 0.6), rgba(182, 78, 9, 0.6)),
+                  url(images/vatican.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}

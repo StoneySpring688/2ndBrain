@@ -1,0 +1,17 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(240, 82%, 48%,  50%);
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+#box2{
+    width: 50%;
+    height: 50%;
+    background-color: hsl(0, 100%, 50%, 70%);
+    position: absolute;
+    top: 25%; /*Es la posición en la que comienza y box  2 ya tiene el 50% del tamaño de box1*/
+    left: 25%;
+}

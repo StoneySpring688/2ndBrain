@@ -1,0 +1,61 @@
+body{
+    background-color: #2e3336
+}
+
+/*
+h1{
+    
+    font-family: Medievo, 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 2em;
+    text-align: center;
+
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 50px;
+    border-color: rgb(50, 140, 192);
+
+    
+}
+*/
+
+/*#px01{color: white;}
+
+#px02{color: lightgrey;}
+
+#px03{color: gray;}
+
+#px04{color: dimgray;}*/
+
+@font-face {
+    font-family: Medievo;
+    src: url(fonts/ManufacturingConsent-Regular.ttf);
+}
+
+.par{
+    color: lightslategray;
+    font-family: Libertinus Mono, Arial, Helvetica, sans-serif;
+}
+
+.impar{
+    color: dimgray;
+    font-family: DM Serif Text, 'Times New Roman', Times, serif;
+}
+
+
+.titulo{
+    font-family: Medievo, 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 1em;
+    text-align: center;
+
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 50px;
+    border-color: rgb(50, 140, 192);
+
+    text-shadow: 5px 5px 2px hsl(212, 46%, 50%), -5px -5px 2px hsl(64, 78%, 55%);
+    box-shadow: 5px 5px 2px hsl(202, 68%, 53%), -5px -5px 2px hsl(202, 60%, 32%);
+
+    margin: 20px;
+}

@@ -1,0 +1,31 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: aquamarine;
+}
+
+p::selection{
+    color: rgb(35, 163, 35);
+    background-color: black;
+}
+
+#frutas li::marker{
+    color: green;
+    content: "✔ ";
+    font-size: 1.2em;
+}
+
+#manzana::after{
+   content: "🍎"; 
+}
+
+#naranja::after{
+    content: "🍊";
+}
+
+#platano::after{
+    content: "🍌";
+}
